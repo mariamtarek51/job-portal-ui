@@ -21,7 +21,9 @@ import MyJobs from "./pages/MyJobs";
 import JobApplicants from "./pages/JobApplicants";
 import Profile from "./pages/Profile";
 import Contact from "./pages/Contact";
+import TermsOfService from "./pages/TermsOfService";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import CookiePolicy from "./pages/CookiePolicy";
 import Dashboard from "./pages/admin/Dashboard";
 import CompanyManagement from "./pages/admin/CompanyManagement";
 import EmployerManagement from "./pages/admin/EmployerManagement";
@@ -138,7 +140,9 @@ function App() {
                   <Route path="contact" element={<Contact />} />
 
                   {/* Policy Routes */}
+                  <Route path="terms-of-service" element={<TermsOfService />} />
                   <Route path="privacy-policy" element={<PrivacyPolicy />} />
+                  <Route path="cookie-policy" element={<CookiePolicy />} />
                 </Route>
               </Routes>
             </Router>

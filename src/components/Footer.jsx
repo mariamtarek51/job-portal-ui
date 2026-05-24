@@ -148,14 +148,20 @@ const Footer = () => {
                 <span className="relative z-10">Privacy Policy</span>
                 <div className="absolute -inset-2 bg-gradient-to-r from-primary-600/30 to-purple-600/30 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </Link>
-              <a className="group relative hover:text-white transition-colors duration-300">
+              <Link
+                to="/terms-of-service"
+                className="group relative hover:text-white transition-colors duration-300"
+              >
                 <span className="relative z-10">Terms of Service</span>
                 <div className="absolute -inset-2 bg-gradient-to-r from-primary-600/30 to-purple-600/30 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              </a>
-              <a className="group relative hover:text-white transition-colors duration-300">
+              </Link>
+              <Link
+                to="/cookie-policy"
+                className="group relative hover:text-white transition-colors duration-300"
+              >
                 <span className="relative z-10">Cookie Policy</span>
                 <div className="absolute -inset-2 bg-gradient-to-r from-primary-600/30 to-purple-600/30 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              </a>
+              </Link>
               <Link
                 to="/contact"
                 className="group relative hover:text-white transition-colors duration-300"
