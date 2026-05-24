@@ -167,7 +167,11 @@ const Footer = () => {
                 className="group relative hover:text-white transition-colors duration-300"
               >
                 <span className="relative z-10">Contact Us</span>
-                <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
+                <div className="absolute -inset-2 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-56 bg-gray-900 border border-gray-700 text-gray-200 text-xs rounded-lg px-3 py-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-20 shadow-lg">
+                  Have a question or issue? Send a message to our admin team and we&apos;ll get back to you.
+                  <div className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-900"></div>
+                </div>
               </Link>
             </div>
             <div className="text-center md:text-right">
